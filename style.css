@@ -1,7 +1,7 @@
 body {
     background-color: black;
 }
-.head h2 {
+.head h1 {
     font-family: Arial;
     color: red;
     font-style: bold;
@@ -14,18 +14,19 @@ body {
     height: 25px;
 }
 .produk table {
-    border-color: darkslategrey 50px;
-    background-color: grey;
+    background-color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     margin: 50px 50px 50px 50px;
+    display: inline-table;
 }
 span {
     color: white;
 }
 .produk button {
     background-color: red;
+    color: white;
     font-family: Arial normal Impact, 'Arial Narrow Bold', sans-serif;
     width: 150px;
     height: auto;
@@ -33,5 +34,5 @@ span {
     border-collapse: collapse;
 }
 .produk img {
-    margin: 30px 50px 30px 50px;
+    margin: 20px 20px 10px 20px;
 }
