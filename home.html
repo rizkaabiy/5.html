@@ -5,16 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DW Imcomp</title>
     <style>
+        body {
+            background-color: black;
+        }
+        .head h2 {
+            font-family: Arial;
+            color: red;
+            font-style: bold;
+        }
+        .navigasi button {
+            background-color: red;
+            font-family: georgia;
+            color: white;
+            width: auto;
+            height: 25px;
+        }
         table {
             background-color: grey;
         }
     </style>
 </head>
 <body>
-    <h2>DW-Imcompt</h2>
-    <button>Add Importir</button>
-    <button>Add Product</button>
+    <div class="head">
+        <h2>DW-Imcompt</h2>
+    </div>
 
+    <div class="navigasi">
+        <button>Add Importir</button>
+        <button>Add Product</button>
+    </div>
+
+    <div class="produk">
     <table>
         <tr>
             <td><img src="./Images/carousell.jpg" width="150px" height="200px">Carousell</td>
@@ -25,6 +46,7 @@
             <td><img src="./Images/sweater rajut.jpg" width="150px" height="200px">Sweater Rajut</td>
         </tr>
     </table>
+    </div>
     
 </body>
 </html>
